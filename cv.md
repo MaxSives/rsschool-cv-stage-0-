@@ -6,6 +6,7 @@
 - Telephone: +375 (29) 811-26-12;
 - Discord: MaksimFeodaray#4204;
 - [VK](https://vk.com/maxsive);
+- E-mail: maxsive@yandex.ru;
 
 3. At the moment, my goal is to learn a programming language for further employment in the company. I think my strong point is workaholism, which allows you to achieve your goal no matter what. I have no experience in programming, however, in addition to studying at RS-school, I also take other courses on JS on my own.
 4. At the moment I have basic knowledge of programming HTML, SCC and JS.
