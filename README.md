@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://MaxSives.github.io/rsschool-cv/cv
+https://maxsives.github.io/rsschool-cv/cv
