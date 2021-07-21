@@ -7,7 +7,7 @@
     <title>All about me</title>
   </head>
   <body>
-    <div class="allContent">
+    <div class="wrapper">
       <section class="info">
         <div class="myContact">
           <h1>Maxim Fiodarau</h1>
@@ -15,7 +15,7 @@
             <div class="gitHubAndMail">
               <div class="gitHub">
                 <div>
-                  <img src="img/gitlogo.png" />
+                  <img src="img/gitlogo.png" alt="Git logo" />
                 </div>
                 <div>
                   <a href="https://github.com/MaxSives" target="_blank">
@@ -25,7 +25,7 @@
               </div>
               <div class="mail">
                 <div>
-                  <img src="img/maillogo.png" />
+                  <img src="img/maillogo.png" alt="Mail logo" />
                 </div>
                 <div>
                   <a href="mailto:maxsive@yandex.ru"> maxsive@yandex.ru</a>
@@ -35,7 +35,7 @@
             <div class="phoneAndSocial">
               <div class="VK">
                 <div>
-                  <img src="img/VKlogo.png" />
+                  <img src="img/VKlogo.png" alt="VK logo" />
                 </div>
                 <div>
                   <a href="https://vk.com/maxsive" target="_blank">
@@ -44,8 +44,7 @@
                 </div>
               </div>
               <div class="phoneNumber">
-                <div>
-                  <img src="img/Phone_icon.png" />
+                  <img src="img/Phone_icon.png" alt="Phone logo">
                 </div>
                 <div>
                   <a href="callto:+375298112612"> +375298112612 </a>
@@ -67,18 +66,21 @@
           At the moment I have basic knowledge of programming HTML, SCC and JS.
         </h3>
         <h3>Code example for the Guess the Number mini-game:</h3>
-        <h4>
-          randomValue = Math.floor(Math.random() * 101);<br />
-          let pop = 0; alert("Отгадай число от 0 до 100");<br />
-          while (true) { pop++; let value = prompt( "Угадай число. ВВеди
-          значение или введи стоп для завершения" );<br />
-          if (value == "стоп") { break; } if (value > randomValue) {
-          alert(`Загаданное число меньше чем ${value}`);<br />
-          } else if (value < randomValue) { alert(`Загаданное число больше чем
-          ${value}`);<br />
-          } if (value == randomValue) { alert( `Угадал, правильное значение
+        <code>
+          <pre>
+          randomValue = Math.floor(Math.random() * 101); let pop = 0;
+
+          alert("Отгадай число от 0 до 100"); 
+          while (true) { pop++; let value =
+          prompt( "Угадай число. ВВеди значение или введи стоп для завершения"
+          ); if (value == "стоп") { break; } if (value > randomValue) {
+          alert(`Загаданное число меньше чем ${value}`); } else if (value <
+          randomValue) { alert(`Загаданное число больше чем ${value}`); } if
+          (value == randomValue) { alert( `Угадал, правильное значение
           ${randomValue}. Угадал с ${pop} попытки` ); break; } }
-        </h4>
+        </pre
+          >
+        </code>
       </section>
       <section class="adressAndEnglishLevel">
         <div class="adress">
