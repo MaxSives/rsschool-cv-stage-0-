@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>All about me</title>
   </head>
   <body>
@@ -45,15 +45,16 @@
                 </div>
               </div>
               <div class="phoneNumber">
-                  <img src="img/Phone_icon.png" alt="Phone logo">
-                </div>
-                <div>
-                  <a href="callto:+375298112612"> +375298112612 </a>
-                </div>
+                <img src="img/Phone_icon.png" alt="Phone logo" />
+              </div>
+              <div>
+                <a href="callto:+375298112612"> +375298112612 </a>
               </div>
             </div>
           </div>
         </div>
+        <div class="myphoto">
+          <img src="img/Maxim.jpg" alt="My Photo">
       </section>
       <section class="knowlengeAndGoal">
         <h2>
@@ -67,21 +68,29 @@
           At the moment I have basic knowledge of programming HTML, SCC and JS.
         </h3>
         <h3>Code example for the Guess the Number mini-game:</h3>
-        <code>
-          <pre>
+        <pre>
           randomValue = Math.floor(Math.random() * 101); let pop = 0;
 
           alert("Отгадай число от 0 до 100"); 
-          while (true) { pop++; let value =
-          prompt( "Угадай число. ВВеди значение или введи стоп для завершения"
-          ); if (value == "стоп") { break; } if (value > randomValue) {
-          alert(`Загаданное число меньше чем ${value}`); } else if (value <
-          randomValue) { alert(`Загаданное число больше чем ${value}`); } if
-          (value == randomValue) { alert( `Угадал, правильное значение
-          ${randomValue}. Угадал с ${pop} попытки` ); break; } }
-        </pre
-          >
-        </code>
+          while (true) 
+          { pop++; let value = prompt( "Угадай число. ВВеди значение или введи стоп для завершения"); 
+          if (value == "стоп") 
+          { break; }
+          if (value > randomValue)
+          {
+            alert(`Загаданное число меньше чем ${value}`);
+          } 
+         else if (value < randomValue) 
+         {
+           alert(`Загаданное число больше чем ${value}`);
+          } 
+          if (value == randomValue) 
+          { 
+            alert( `Угадал, правильное значение ${randomValue}. Угадал с ${pop} попытки` ); 
+            break; 
+          } 
+        }
+        </pre>
       </section>
       <section class="adressAndEnglishLevel">
         <div class="adress">
@@ -97,24 +106,39 @@
       <section class="educationAndCourse">
         <div class="education">
           <h3>Education:</h3>
-          In 2018, I graduated from "Vitebsk State Technological University"
-          with a degree in "finance and credit". After that, he entered the
-          magistracy and in 2019, at the same university, received a master's
-          degree in economic sciences in the specialty "Management in
-          socio-economic systems".
+          <p>
+            In 2018, I graduated from "Vitebsk State Technological University"
+            with a degree in "finance and credit". After that, he entered the
+            magistracy and in 2019, at the same university, received a master's
+            degree in economic sciences in the specialty "Management in
+            socio-economic systems".
+          </p>
         </div>
         <div class="course">
           <h3>Course:</h3>
-          As I mentioned above, I have no work experience, but I successfully
-          completed the course
-          <a
-            href="https://itvdn.com/ru/video/javascript-starter"
-            target="_blank"
-          >
-            "JavaScript - Starter"
-          </a>
-          on the platform with a certificate and a grade of 900/1000.
+          <p>
+            As I mentioned above, I have no work experience, but I successfully
+            completed the course
+            <a
+              href="https://itvdn.com/ru/video/javascript-starter"
+              target="_blank"
+            >
+              "JavaScript - Starter"
+            </a>
+            on the platform with a certificate and a grade of 900/1000.
+          </p>
         </div>
+      </section>
+      <section class="skills">
+        <h2>My skills</h2>
+        <dl class="skills-list">
+          <dl class="skills-list">
+            <dt class="skill-html">HTML</dt>
+            <dd class="level"><div style="width: 70%">70%</div></dd>
+            <dt class="skill-css">CSS</dt>
+            <dd class="level"><div style="width: 30%">30%</div></dd>
+          </dl>
+        </dl>
       </section>
     </div>
   </body>
