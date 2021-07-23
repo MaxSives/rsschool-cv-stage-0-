@@ -232,12 +232,10 @@ pre {
   display: flex;
   font-size: 24px;
 }
-
-.myphoto img {
+.myPhoto img {
   width: 300px;
-  height: 400px;
+  height: 450px;
 }
-
-.myphoto {
+.myPhoto {
   box-shadow: 10px 5px 10px #000000;
 }
