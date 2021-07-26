@@ -1,0 +1,241 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.wrapper {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.myContact img {
+  width: 40px;
+  height: 40px;
+}
+
+body {
+  width: 100%;
+  background-image: url("img/depositphotos_14500947-stock-illustration-vintage-seamless-pattern-for-background.jpg");
+  background-repeat: repeat;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 4px black solid;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 40px;
+  text-shadow: black;
+}
+
+h3 {
+  text-shadow: black;
+  font-size: 25px;
+}
+
+p {
+  text-shadow: black;
+  font-size: 17px;
+}
+a:visited {
+  color: black;
+}
+
+.knowlengeAndGoal {
+  border-left: 3px black solid;
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+pre {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border: 5px solid white;
+  width: 850px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list dt {
+  padding-left: 32px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.skill-html {
+  background-image: url("img/icon-html.svg");
+}
+
+.skill-css {
+  background-image: url("img/icon-css.svg");
+}
+
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #ffffff;
+  border: 1px solid #86c3fa;
+  border-radius: 8px;
+}
+
+.level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #288be6;
+  border-radius: 6px;
+}
+
+.wrapper {
+  max-width: 1024px;
+}
+
+.gitHubAndMail {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.gitHub {
+  display: flex;
+  flex-direction: row;
+}
+
+.gitHub * {
+  display: inline-block;
+  line-height: 42px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+}
+.mail * {
+  display: inline-block;
+  line-height: 42px;
+}
+
+.VK {
+  display: flex;
+  flex-direction: row;
+}
+.VK * {
+  display: inline-block;
+  line-height: 42px;
+}
+
+.phoneAndSocial {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+
+.phoneNumber {
+  display: flex;
+  flex-direction: row;
+}
+
+.phoneNumber * {
+  display: inline-block;
+  line-height: 42px;
+}
+
+.myLinks {
+  display: flex;
+  align-content: center;
+  margin: 40px;
+}
+
+.adressAndEnglishLevel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.adress {
+  display: flex;
+  font-size: 24px;
+}
+.myPhoto img {
+  width: 300px;
+  height: 450px;
+}
+.myPhoto {
+  box-shadow: 10px 5px 10px #000000;
+}
